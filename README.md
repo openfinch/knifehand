@@ -32,7 +32,7 @@
 You can install _Knifehand_ via [pip] from [PyPI]:
 
 ```console
-$ pip install knifehand
+pip install knifehand
 ```
 
 ## Usage
