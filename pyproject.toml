@@ -56,7 +56,8 @@ tests = ["tests", "*/tests"]
 
 [tool.coverage.run]
 branch = true
-source = ["knifehand", "tests"]
+source = ["knifehand"]
+omit = ["*/__init__.py"]
 
 [tool.coverage.report]
 show_missing = true

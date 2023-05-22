@@ -4,6 +4,7 @@ from typing import Callable
 from typing import List
 from typing import Optional
 from typing import Tuple
+from typing import Union
 
 import click
 import numpy as np
@@ -119,7 +120,7 @@ def filter_cut(
     return new_video, cuts
 
 
-def load_video(video_path: str) -> VideoFileClip | None:  # pragma: no cover
+def load_video(video_path: str) -> Union[VideoFileClip, None]:  # pragma: no cover
     """Function to load a video using MoviePy.
 
     Args:
