@@ -21,11 +21,11 @@
 
 ## Features
 
-- TODO
+- Use `filter_cut` to programmatically trim and cut video based on lambdas/HOFs.
 
 ## Requirements
 
-- TODO
+- [`ffmpeg`](https://ffmpeg.org/) - The ur-tool for video editing, dependency of PyMovie.
 
 ## Installation
 
