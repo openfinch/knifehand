@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "knifehand"
-version = "0.0.0"
+version = "0.1.0"
 description = "Knifehand"
 authors = ["Josh Finch <me@joshfinch.com>"]
 license = "MIT"
